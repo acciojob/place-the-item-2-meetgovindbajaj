@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.main{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+}
+.box{
+	width:100px;
+	height:100px;
+	font-size:2rem;
+}
+.three{
+	background:green;
+}.one{
+	background:red;
+}.two{
+	background:blue;
+}
