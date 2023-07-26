@@ -1,6 +1,11 @@
 
 /* Your CSS Code here. */
-.main{
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.holder{
 	display:flex;
 	flex-flow:row wrap;
 	justify-content:center;
@@ -8,7 +13,7 @@
 .box{
 	width:100px;
 	height:100px;
-	font-size:2rem;
+	font-size:3rem;
 }
 .three{
 	background:green;
